@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My website!</title>
+</head>
+<body>
+    <div id="rezultat" />
+    <script>
+        'use strict';
+        function TryCatch(arg) {
+            alert("Hello, world!")
+            var num = 10;
+            var str = "";
+            var my_obj = {}
+            var pinguin = {
+                nume: "Tux",
+                gen: "Mascul",
+                proprietati: {
+                    culoare: "alb-negru",
+                    marime: 17,
+                    neutral: true,
+                    capacitatea: "normal"
+                }
+            }
+            for (var proprietate in pinguin) {
+                str += proprietate + ' = ' + pinguin[proprietate] + ", ";
+            }
+            alert(str);
+            while (num !== 0) {
+                str = "You ca click OK please... \n       remained: " + num.toString();
+                alert(str)
+                num = num - 1
+            }
+            if (num == 0) {
+                alert("   Thanks!!!\n You are boss!")
+            }
+        };
+
+        TryCatch("asa");
+
+    </script>
+    <ul></ul>
+    <li><p>Web</p></li>
+    <p>2.0</p>
+    <li></li>
+    <ul></ul>
+</body>

@@ -1,0 +1,3 @@
+C:\Users\Ruslan\Documents\Python\web 2.0\obj\Debug\web.njsproj.CoreCompileInputs.cache
+C:\Users\Ruslan\Documents\Python\web 2.0\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Ruslan\Documents\Python\web 2.0\obj\Debug\web.njsprojAssemblyReference.cache
